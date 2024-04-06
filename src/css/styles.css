@@ -1,0 +1,24 @@
+/* Resetear estilos */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Variables de colores para el proyecto */
+
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
