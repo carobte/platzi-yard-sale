@@ -1,14 +1,7 @@
-/* Resetear estilos */ 
+/* Importar fuente */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
-
-/* Variables de colores para el proyecto */
+/* Variables para el proyecto */
 
 :root{
     --white: #FFFFFF;
@@ -17,7 +10,12 @@
     --very-light-pink: #C7C7C7;
     --text-input-field: #F7F7F7;
     --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
 }
+
+/* Fuente para el proyecto */
 
 body{
     font-family: 'Quicksand', sans-serif;
